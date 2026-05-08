@@ -1,0 +1,4 @@
+--- Weather Report ---
+1. city with highest average max temp:Tokyo(22.74°C)
+2. Hottest day: New York on 2026-05-05 with max temp 29.00°C
+3. Days with temp difference >10°C:6
