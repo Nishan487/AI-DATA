@@ -1,0 +1,13 @@
+id,name,score,grade
+1,Alice Johnson,85.0,B
+2,Bob Smith,72.0,C
+3,Chris Evans,90.0,A
+4,Alice Johnson,85.0,B
+8,Fiona Gallagher,92.0,A
+9,George Miller,45.0,fail
+10,George Miller,45.0,fail
+11,Hannah Montana,100.0,A
+12,Ian Curtis,77.0,B
+13,Jenny Slate,0.0,fail
+15,Laura Palmer,88.0,B
+16,Alice Johnson,85.0,B
