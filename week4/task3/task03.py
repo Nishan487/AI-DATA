@@ -1,6 +1,6 @@
 import pandas as pd 
 import requests
-
+import sqlite3
 
 def analyse_userAnd_post():
     try:
@@ -35,6 +35,8 @@ def analyse_userAnd_post():
         
         print(df_user)
         merge_df.to_csv("merged_data.csv", index=False)
+        conn=sqlite3.connect("merged_data.db")
+        merge_df.to_sql("merged_data", conn, if_exists="replace", index=False)
     except Exception as e:
         print("Error fetching data from API:", e)
         return None
